@@ -7,5 +7,6 @@ nav:
   -  Analysis of Data Job Market Trends Using Python: code-examples.md
   -  My Favorite Python Libraries: favorite-python-libraries.md
   -  Contact: contact.md
+  - Currently Studying: currently-studying.md
 theme:
   name: material
