@@ -4,9 +4,38 @@ repo_url: 'https://github.com/claire-nel/clairenelson'
 site_url: https://claire-nel.github.io/clairenelson
 nav:
   - Home: index.md
-  -  Analysis of Data Job Market Trends Using Python: code-examples.md
-  -  My Favorite Python Libraries: favorite-python-libraries.md
-  -  Contact: contact.md
-  - Currently Studying: currently-studying.md
+  - Analysis of Data Job Market Trends Using Python: code-examples.md
 theme:
   name: material
+  font:
+    text: Merriweather Sans
+  palette:
+
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: cyan
+      accent: grey
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: cyan
+      accent: white
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
